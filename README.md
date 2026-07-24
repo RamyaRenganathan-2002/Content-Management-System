@@ -30,7 +30,6 @@ Password: admin123
 | Admin Frontend | React.js (Vite), Redux Toolkit, React Router, Tailwind CSS v4, TipTap |
 | Public Frontend | Next.js (App Router), Tailwind CSS v4, react-katex |
 | Deployment | Vercel (all three apps, separate projects) |
-| Infra (optional/local) | Docker, docker-compose — included but not fully verified locally due to a Docker Desktop/WSL2 compatibility issue on the development machine; config is provided as-is for reference |
 
 ## Architecture Overview
 
@@ -187,10 +186,6 @@ cd public-frontend && npm run dev # http://localhost:3000
   submission.
 - **CORS is restricted** to known frontend origins (localhost during dev, the deployed
   Vercel URLs in production) rather than left open to all origins.
-- **Docker configuration is included** (`Dockerfile`s + `docker-compose.yml`) as an
-  infrastructure deliverable, but full local verification was blocked by a Docker
-  Desktop/WSL2 compatibility issue on the development machine. The project is deployed
-  and fully verified on Vercel instead.
 
 ## Deployment Notes
 
