@@ -8,7 +8,14 @@ const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    origin: [
+        'http://localhost:5173',
+        'http://localhost:3000',
+        'http://content-management-system-pvc8.vercel.app/',  // your admin URL
+        'https://content-management-system-7c5s.vercel.app/'          // your public URL
+    ]
+}));
 app.use(express.json());
 
 app.use('/api/v1/auth', authRoutes);
