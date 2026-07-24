@@ -8,9 +8,9 @@ renders content dynamically via API — no hardcoded data.
 
 | App | URL |
 |---|---|
-| Public Website | https://YOUR-PUBLIC-URL.vercel.app |
-| Admin Panel | https://YOUR-ADMIN-URL.vercel.app |
-| Backend API | https://YOUR-BACKEND-URL.vercel.app/api/v1 |
+| Public Website | [https://content-management-system-pvc8.vercel.app/](https://content-management-system-pvc8.vercel.app/) |
+| Admin Panel | [https://content-management-system-pvc8.vercel.app/](https://content-management-system-pvc8.vercel.app/) |
+| Backend API | https://content-management-system-seven-ruby.vercel.app/ |
 
 ## Demo Credentials
 
