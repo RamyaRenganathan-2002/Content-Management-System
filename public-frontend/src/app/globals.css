@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #10293A;
+  --color-surface: #16344A;
+  --color-ink: #EDEBD9;
+  --color-accent: #E8A33D;
+  --color-accentGreen: #6FCF97;
+  --color-line: rgba(237, 235, 217, 0.14);
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "IBM Plex Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+body {
+  background-color: #10293A;
+  color: #EDEBD9;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-image:
+    linear-gradient(rgba(237, 235, 217, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(237, 235, 217, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.blueprint-panel {
+  border: 1px solid rgba(237, 235, 217, 0.14);
+  position: relative;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  background: rgba(237, 235, 217, 0.02);
+}
+
+.blueprint-tag {
+  position: absolute;
+  top: -0.65rem;
+  left: 1rem;
+  background: #10293A;
+  padding: 0 0.5rem;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  color: #E8A33D;
+} 
